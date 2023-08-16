@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+</head>
+<body class="home">
+    <!-- <div id="Homepage"> -->
+    
+    <nav id="Nav">
+        <label class="LOGO"><img src="./Images/logoo.png" height="100px"></label>
+        <ul id="UL">
+            <li id="LI"><a href="home.html"> Home </a></li>
+            <li id="LI"><a href="categories.html">  Catergories </a></li>
+            <li id="LI"><a href="hatcheries.html"> Hikkaduwa Turtle Hatchery </a></li>
+            <li id="LI"><a href="threats.html">Threats to turtles </a></li>
+            <li id="LI"><a href="other.html"> Other turtle hatcheries </a></li>
+            <li id="LI"><a href="Purchase and donate.html"> Purchase & Donation </a></li>
+            <li id="LI"><a href="tickets.html"> tickets </a></li>
+            <li id="LI"><a href="details.html"> detail </a></li>
+            <li id="LI"><a href="payment.html"> Payment </a></li>
+            <!-- <li id="LI"><a href="#"> Home6 </a></li> -->
+        </ul>
+    </nav>
+    <center>
+    <h1 id="h1">Turtle</h1>
+    </header>
+</center>
+  <center>
+    <h1 class="Heading"> Tickets  Tickets  Tickets  Tickets  Tickets  Tickets</h1>
+    <div class="Back">
+      <div class="buy">
+        <div class="payment-form">
+          <h2>Payment details</h2>
+          <form id="paymentForm">
+            <label for="cardNumber">Card Number*</label>
+            <input type="text" id="cardNumber" required>
+            
+            <label for="expiryDate">Expiry Date*</label>
+            <input type="text" id="expiryDate" placeholder="MM/YY" required>
+            
+            <label for="cvc">CVC / CVV*</label>
+            <input type="text" id="cvc" required>
+            
+            <label for="nameOnCard">Name on Card*</label>
+            <input type="text" id="nameOnCard" required>
+            
+            <br><br><br>
+            <section id="summary">
+              <h2>Summary</h2>
+              <table>
+                <tr>
+                  <td>Date</td>
+                  <td id="summaryDate"></td>
+                </tr>
+                <tr>
+                  <td>Time</td>
+                  <td id="summaryTime"></td>
+                </tr>
+                <tr>
+                  <td>Duration</td>
+                  <td id="summaryDuration"></td>
+                </tr>
+                <tr>
+                  <td>Tickets</td>
+                  <td id="summaryTickets"></td>
+                </tr>
+                <tr>
+                  <td>Total Payable</td>
+                  <td id="summaryTotal"></td>
+                </tr>
+              </table>
+            </section>
+            
+            <br><br><br>
+            <button id="payButton" disabled>Pay <span id="payAmount"></span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </center>
+  <script src="payment.js"></script>
+</body>
+<footer>
+  <div class="footernav">
+    <!-- Include footer navigation links here -->
+  </div>
+</footer>
+</html>

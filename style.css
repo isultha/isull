@@ -1,0 +1,101 @@
+#Nav{
+    background: black;
+    height: 70px;
+    width: 100%;
+  
+    
+  }
+  
+  
+  .home{
+      /* background: rgb(204, 153, 87); */
+      background: url(./Images/backk.jpeg);
+      background-size: cover;
+      background-position: center;
+      height: 80px;
+  }
+  
+  #Nav UL{
+      float: right;
+      margin-right: 20px;
+  }
+  
+  #Nav UL LI{
+      display: inline;
+      line-height: 80px;
+      margin: 0 5px;
+      color:white; 
+     position:relative;
+     top: -130px;     
+  
+  }
+  #Nav UL LI a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 15px;
+      font-size: 20px;
+      line-height: 50px;
+  }
+  .LOGO{
+      color: aqua;
+      font-size: 90px;
+      line-height: 80px;
+      /* width: 40px; */
+  }
+  
+  #h1
+  {
+      
+      text-align: center;
+      font-size: 200px;
+      padding: 25px ;
+      color: rgba(240, 248, 255, 0.398);
+  }
+  #h1:hover{
+      color: #71b6f3;
+  }
+  /* Styling the body */
+  body {
+      margin: 0;
+      padding: 0;
+  }
+  /* Styling section, giving background
+      image and dimensions */
+  
+  /* Styling the left floating section */
+  .leftBox {
+      width: 50%;
+      height: 100%;
+      float: left;
+      padding: 50px;
+      box-sizing: border-box;
+      background-color: #fff;
+  }
+  /* Styling the background of
+      left floating section */
+  section .leftBox .content {
+      color: #fff;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 40px;
+      transition: .5s;
+  }
+  /* Styling the hover effect 
+      of left floating section */
+  section .leftBox .content:hover {
+      background: #16d7f5;
+  }
+  /* Styling the header of left
+      floating section */
+  section .leftBox .content h1 {
+      margin: 0;
+      padding: 0;
+      font-size: 50px;
+      text-transform: uppercase;
+  }
+  /* Styling the paragraph of
+      left floating section */
+  section .leftBox .content p {
+      margin: 10px 0 0;
+      padding: 0;
+  }
+  /* Styling the three events section *
